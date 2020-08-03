@@ -41,7 +41,7 @@ print(any(i<5 for i in l))
 # credit. I used these examples to gain a broader understanding of what
 # Python's 'itertools' commands do...
 
-# See Corey Schafer on YouTube for more details:
+# Search for Corey Schafer on YouTube for more details:
 
 person_group=itertools.groupby(people,get_state)
 for key, group in person_group:
