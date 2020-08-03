@@ -66,13 +66,3 @@ secrenum7=random.randint(1,70)
 secrenum8=random.randint(1,80)
 secrenum9=random.randint(1,90)
 secrenum10=random.randint(1,100)
-
-course='Python for Beginners'
-print(len(course))
-print(course.upper())
-print(course.lower())
-print(course.title())
-print(course.find('Beginners'))
-print(course.replace('Beginners','Absolute Beginners'))
-print(course.replace('P','J'))
-print('Python' in course)
