@@ -50,32 +50,39 @@ int(x, base=10)
 isinstance(object, classinfo)
 issubclass(class, classinfo)
 iter(object[, sentinel])
+id(object)
+
 len(s)
 list([iterable])
 locals()
+
 map(function, iterable, ...)
 max(iterable, *[, key, default])
 max(arg1, arg2, *args[, key])
 memoryview(obj)
 min(iterable, *[, key, default])
 min(arg1, arg2, *args[, key])
+
 next(iterator[, default])
+
 object
 oct(x)
 bin(x)
 hex(x)
-id(object)
 
 open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
 ord(c)
+
 pow(x, y[, z])
 print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 property(fget=None, fset=None, fdel=None, doc=None)
+
 range(stop)
 range(start, stop[, step])
 repr(object)
 reversed(seq)
 round(number[, ndigits])
+
 set([iterable])
 setattr(object, name, value)
 slice(stop)
@@ -84,11 +91,14 @@ sorted(iterable, *, key=None, reverse=False)
 staticmethod
 sum(iterable[, start])
 super([type[, object-or-type]])
+
 tuple([iterable])
 type(object)
 type(name, bases, dict)
+
 vars([object])
 zip(*iterables)
+
 id(object)
 input([prompt])
 print(bin(11))
