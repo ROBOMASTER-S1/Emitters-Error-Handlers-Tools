@@ -212,7 +212,7 @@ for item in result:
     
 '''----------------------------------------------------------------'''
     
-# A stern thanks to Corey Schafer, These examples below are my own
+# A stern thanks to Corey Schafer, these examples below are my own
 # spin on what I've learned from watching his Python programming
 # YouTube videos.
 
