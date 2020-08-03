@@ -1,3 +1,5 @@
+# This is a complete list of exeception handlers:
+
 except Exception:
 except BaseException:
 except ArithmeticError:
@@ -66,6 +68,12 @@ except ImportWarning:
 except UnicodeWarning:
 except BytesWarning:
 except ResourceWarning:
+     
+# This is the basic skeletal 'try' and 'except' error handler code blocks,
+# which includes the 'finally' statement. Note: the 'finally' statement is
+# optional; you do not need to invoke the 'finally' statement. However, it
+# can be quite handy when you want to show any output on the screen, no matter
+# the outcome of the program's execution/run.
 
 try:
      pass
